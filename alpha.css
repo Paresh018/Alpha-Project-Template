@@ -1,0 +1,246 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./image/banner.jpg);
+    /* when we apply bgm img to page it keep repeating so it will affect other sections to so we will use background-repeat: no-repeattag; */
+    background-repeat: no-repeat;
+    /* we want this img for section1 only so we will give size of 100% otherwise it will be applies to whole page */
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+
+#left {
+    width: 75%;
+}
+
+/* left is id of div and in this we want to access h1 tag  */
+#left h1 {
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#headersection div {
+    display: inline-block;
+}
+
+#headersection div ul li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    padding-left: 28px;
+}
+
+#headersection div h1 span {
+    font-weight: 100;
+}
+
+#headersection div ul li button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #d4cecd;
+    border-radius: 5px;
+    width: 76px;
+    height: 28px;
+    font-size: 14px;
+}
+
+#bodysection {
+    color: #fff;
+    text-align: center;
+    margin-top: 93px;
+}
+
+#bodysection h1 {
+    font-size: 47px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    /* font-size: 1.25em;
+    margin-bottom: 1.75em; */
+}
+
+#bodysection p {
+    font-size: 20px;
+}
+
+#bodysection button {
+    background-color: #fff;
+    height: 45px;
+    width: 175px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #9f867a;
+    font-size: 14px;
+    border: none;
+}
+
+#bodysection #learn {
+    color: #faf7f4;
+    background-color: transparent;
+    border: 2px solid #9ca7b0;
+    margin-top: 17px;
+}
+
+#descriptivesection {
+    color: #717171;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 122px;
+    border-radius: 8px;
+
+}
+
+#descriptivesection h1 {
+    font-size: 32px;
+    padding-top: 64px;
+    font-weight: 500;
+}
+
+#descriptivesection p {
+    font-size: 18px;
+    border-top: 2px solid #e5e5e5;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+#descriptivesection img {
+    width: 100%;
+    padding-top: 68px;
+}
+
+#iconsection {
+    width: 70%;
+    margin: auto;
+    color: #786a69;
+    background-color: #fff;
+    margin-top: 35px;
+    border-radius: 5px;
+    margin-bottom: 23px;
+}
+
+#iconsection div {
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fa.fa-bolt {
+    font-size: 37px;
+    border-radius: 100%;
+    background-color: #e89980;
+    padding: 18px;
+    color: white;
+    margin-top: 20%;
+}
+
+.fa.fa-area-chart {
+    font-size: 37px;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    padding: 18px;
+    color: white;
+}
+
+.fa.fa-cloud {
+    font-size: 37px;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    padding: 18px;
+    color: white;
+}
+
+.fa.fa-lock {
+    font-size: 37px;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    padding: 18px;
+    color: white;
+}
+
+#signupsection {
+    background-color: #e89980;
+    color: #f8e3db;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+#signupsection h1 {
+    padding-top: 65px;
+}
+
+#signupsection p {
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+#signupsection button {
+    color: #ebb0a3;
+    background-color: #fff;
+    height: 42px;
+    width: 112px;
+    border-radius: 8px;
+    border: none;
+}
+
+#signupsection input {
+    height: 34px;
+    width: 223px;
+    border-radius: 5px;
+    background-color: #eba893;
+    color: #f8e3db;
+    margin-right: 11px;
+    margin-bottom: 70px;
+    border: none;
+}
+
+::placeholder {
+    color: #f8e3db;
+}
+
+#footersection div ul li {
+    display: inline-block;
+    width: 38px;
+    color: #c6c6c6;
+
+}
+
+#footersection {
+    text-align: center;
+    margin: 70px;
+    font-size: 26px;
+    padding-right: 6%;
+}
+
+#para {
+    font-size: 14px;
+    color:
+        #b7c1d6;
+}
+
+#para span {
+    border-bottom: 1px dotted #b7c1d6;
+}
+
+
+#imagesection div {
+    display: inline-block;
+    width: 48.5%;
+    background-color: white;
+    text-align: center;
+
+}
+
+#imagesection {
+    width: 70%;
+
+    margin: auto;
+}
+
+#imagesection img {
+    width: 100%;
+}
