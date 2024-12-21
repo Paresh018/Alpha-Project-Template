@@ -5,6 +5,12 @@ Alpha is a sophisticated template from HTML5 UP, perfect for creative portfolios
 this Template provides a professional and dynamic foundation to showcase your projects and engage your audience effortlessly.
 
 
+## Demo
+
+To view demo open this link: 
+
+https://paresh018.github.io/Alpha-Project-Template/alpha.html
+
 
 
 ## Run Locally
@@ -25,5 +31,3 @@ directlly open alpha.html file on browser.
 ## Tech
 
 **Client:** HTML5 , CSS3, Bootstrap
-
-
